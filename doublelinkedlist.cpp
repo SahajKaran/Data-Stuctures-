@@ -53,7 +53,6 @@ class Linkedlist{//doubly linked list
             return;
         }
         node=start;
-        cout<<"List is:"<<endl;
         while(node!=NULL){
             cout<<node->elem<<" ";
             node=node->next;
